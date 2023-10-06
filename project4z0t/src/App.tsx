@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import AppearingText from './Components/AppearingText';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <p>
           <b>4z0t</b> was here
         </p>
+        <AppearingText text='Hello'></AppearingText>
         <a
           className="App-link"
           href="https://reactjs.org"
